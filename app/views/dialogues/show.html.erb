@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @dialogue.title %>
+</p>
+
+<p>
+  <strong>Stirng:</strong>
+  <%= @dialogue.stirng %>
+</p>
+
+<%= link_to 'Edit', edit_dialogue_path(@dialogue) %> |
+<%= link_to 'Back', dialogues_path %>
