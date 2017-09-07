@@ -10,13 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170906053405) do
+ActiveRecord::Schema.define(version: 20170907104647) do
 
   create_table "dialogues", force: :cascade do |t|
     t.string   "title"
     t.string   "stirng"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string   "weight"
   end
 
 end
